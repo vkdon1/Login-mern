@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
     console.log(user);
 
-    const response = await fetch("https://2s3rq2-3000.csb.app/users", {
+    const response = await fetch("https://login-mern-liart.vercel.app/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
