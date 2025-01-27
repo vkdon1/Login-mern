@@ -8,7 +8,7 @@ connectToMongo();
 // Middleware to parse JSON
 // lets resolve the cors give it permission to PUT,GET,POST,DELETE ,PATCH
 var corsOptions = {
-  origin: "https://2s3rq2-5173.csb.app",
+  origin: "https://login-mern-frontend.vercel.app",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
